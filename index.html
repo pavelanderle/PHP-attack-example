@@ -7,10 +7,20 @@
     <title>PHP Attacks - XSS, SQL Injection</title>
 </head>
 <body>
+    <h2>Add email</h2>
     <form action="attack.php">
         <div class="form-group">
           <label for="email">Email address:</label>
-          <input type="text" class="form-control" placeholder="Enter email" id="email" name="email">
+          <input type="text" class="form-control" placeholder="Enter email" id="add email" name="addemail">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+      <h2>Find email</h2>
+      <form action="attack.php">
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="text" class="form-control" placeholder="Enter email" id="findemail" name="findemail">
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
